@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    list-style: none;
+    padding: 10px 0;
+    
+}
+
+nav li {
+    margin: 0 10px;
+    background-color: rgb(60, 9, 60);
+    border-radius: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}  
+
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    background-color: rgb(60, 9, 60);
+    height: 1000px;
+  }
+
+  h2{
+    text-align: center;
+    margin: 15px;
+    background-color: rgb(60, 9, 60);
+    color: white;
+    border-radius: 15px;
+  }
+
+  table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  td[colspan="10"] {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-style: italic;
+    color: #0047ab;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+
+  .volver {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .volver span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .volver img {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    
+  }
+  

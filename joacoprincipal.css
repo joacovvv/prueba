@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 10px;
+    background-color: rgb(60, 9, 60);
+    border-radius: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 20px;
+    background-color: rgb(60, 9, 60);
+    height: 760px;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.8);
+    width: 60%;
+    padding: 20px;
+    height: 600px;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.left-content img {
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.left-content p {
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.right-aside {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 400px    ;
+    padding: 20px;
+    height: 100%;
+    color: white;
+    border-radius: 40px;
+}
+
+.right-aside h2 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: white;
+    
+}
+
+h1 {
+    background-color: rgb(60, 9, 60);
+    color: white;
+    text-align: center;
+    margin: 15px;
+    border-radius: 30px;
+    font-style: italic;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.boton img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.lore{
+    list-style: none;
+    margin: 20px;
+
+}
+.villa{
+    margin: 80px;
+    background-color: rgb(83, 30, 83);
+    border-radius: 20px;
+    
+
+
+}
+h3{
+    color: white;
+    margin: 50px;
+}
+.villa:hover{
+background-color: rgba(60, 9, 60, 0.653);
+
+}
+.villa:active{
+background-color: rgb(67, 67, 42);
+
+}
